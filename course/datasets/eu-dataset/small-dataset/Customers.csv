@@ -1,0 +1,6 @@
+Customer_ID;First_Name;Last_Name;Address;Postal_Code;City;Country;Phone;Score
+1;Maria;Cramer;123 St. Pine;12209;Berlin;Germany;+49-151-1234-5678;350
+2;John; Steel ;890 St. Anne's Drive;98128;Seattle;USA;+1-555-123-4567;900
+3;Georg;Pipps;123 St. Ash;75016;Paris;France;+33-612-345-1678;750
+4;Martin;Mueller;456 St. Paulus;70563;Stuttgart;Germany;+49-162-9876-5432;500
+5;Peter;Franken;789 St. Main;94117;San Francisco;USA;+1-888-987-6543;

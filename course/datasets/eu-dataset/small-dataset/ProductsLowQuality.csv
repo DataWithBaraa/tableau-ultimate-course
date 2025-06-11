@@ -1,0 +1,11 @@
+Order_ID;Product1;Product2;Quantity;Price
+1;Monitor;Monitor;10;2
+2;Monitor;Monitor;50;4
+3;Monitor;Monitor;40;2
+4;KEYBOARD;"Keyboard ";70;1
+5;Keyboard;" Keyboard";100;2
+6;keyboard;" Keyboard ";12;3
+7;Keyboard;Keyboard;5;2
+8;Mouse;Mouse;10;4
+9;Mouse;Mouse;50;2
+10;Mouse;Mouse;20;3
