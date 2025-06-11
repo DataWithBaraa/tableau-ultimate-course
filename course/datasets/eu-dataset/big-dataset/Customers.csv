@@ -1,0 +1,801 @@
+Customer_ID;First_Name;Last_Name;Postal_Code;City;Country;Score
+1;Bill;Van Buren;78000;Versailles;France;76
+2;Gerald;Jackson;60528;Frankfurt a.M.;Germany;74
+3;Harry;Nixon;75016;Paris;France;3
+4;Dwight;Coolidge;97219;Portland;USA;25
+5;Rutherford;Roosevelt;4179;Leipzig;Germany;87
+6;Grover;Grant;80805;München;Germany;65
+7;Grover;Roosevelt;98128;Seattle;USA;24
+8;Bill;Roosevelt;82520;Lander;USA;27
+9;Calvin;McKinley;97201;Portland;USA;54
+10;Dwight;Jefferson;78000;Versailles;France;50
+11;Ulysses;Harding;75016;Paris;France;50
+12;Rutherford;Garfield;70563;Stuttgart;Germany;79
+13;Jimmy;Tyler;75016;Paris;France;19
+14;James;Roosevelt;24100;Bergamo;Italy;27
+15;Ronald;Wilson;67000;Strasbourg;France;83
+16;Martin;Roosevelt;59000;Lille;France;78
+17;Martin;Kennedy;78000;Versailles;France;86
+18;John;Taft;68306;Mannheim;Germany;59
+19;Bill;Eisenhower;94117;San Francisco;USA;44
+20;Ronald;Coolidge;87110;Albuquerque;USA;63
+21;Franklin;Johnson;44000;Nantes;France;38
+22;Benjamin;Reagan;44087;Münster;Germany;84
+23;Benjamin;Van Buren;44087;Münster;Germany;41
+24;Ulysses;Tyler;44000;Nantes;France;46
+25;James;Cleveland;14776;Brandenburg;Germany;13
+26;Harry;Truman;52066;Aachen;Germany;36
+27;Chester;Roosevelt;80805;München;Germany;44
+28;Warren;Roosevelt;67000;Strasbourg;France;0
+29;Millard;Eisenhower;42100;Reggio Emilia;Italy;84
+30;Benjamin;Madison;59801;Butte;USA;41
+31;Dwight;Van Buren;14776;Brandenburg;Germany;57
+32;Benjamin;Buchanan;75016;Paris;France;50
+33;Herbert;Harrison;69004;Lyon;France;88
+34;Woodrow;Kennedy;24100;Bergamo;Italy;92
+35;Benjamin;Roosevelt;97201;Portland;USA;60
+36;Ulysses;Roosevelt;59000;Lille;France;9
+37;Dwight;Eisenhower;24100;Bergamo;Italy;78
+38;Jimmy;Washington;68306;Mannheim;Germany;26
+39;Millard;Clinton;97201;Portland;USA;7
+40;Jimmy;Polk;60528;Frankfurt a.M.;Germany;50
+41;Warren;Harrison;80805;München;Germany;33
+42;Andrew;Adams;52066;Aachen;Germany;45
+43;Calvin;Buchanan;10100;Torino;Italy;44
+44;Andrew;Van Buren;97403;Eugene;USA;30
+45;Richard;Wilson;67000;Strasbourg;France;64
+46;Zachary;Lincoln;98034;Kirkland;USA;2
+47;Franklin;Roosevelt;98034;Kirkland;USA;6
+48;Warren;Clinton;42100;Reggio Emilia;Italy;69
+49;Dwight;Jackson;98034;Kirkland;USA;52
+50;Millard;Monroe;75016;Paris;France;78
+51;Jimmy;Johnson;67000;Strasbourg;France;31
+52;Franklin;Buchanan;24100;Bergamo;Italy;33
+53;Thomas;Ford;75012;Paris;France;94
+54;Andrew;Roosevelt;59801;Butte;USA;0
+55;Harry;Jackson;42100;Reggio Emilia;Italy;25
+56;Ulysses;Eisenhower;68306;Mannheim;Germany;37
+57;Millard;Harrison;14776;Brandenburg;Germany;34
+58;Calvin;Polk;44000;Nantes;France;72
+59;Chester;Adams;59000;Lille;France;47
+60;Grover;Carter;82520;Lander;USA;29
+61;Thomas;Hoover;4179;Leipzig;Germany;64
+62;Rutherford;Monroe;44000;Nantes;France;20
+63;Dwight;Quincy;70563;Stuttgart;Germany;85
+64;Herbert;Harrison;99508;Anchorage;USA;68
+65;Harry;Harding;97827;Elgin;USA;1
+66;John;Monroe;70563;Stuttgart;Germany;58
+67;Chester;Quincy;42100;Reggio Emilia;Italy;0
+68;Rutherford;Cleveland;97201;Portland;USA;65
+69;William;Harrison;67000;Strasbourg;France;80
+70;Ronald;Adams;51100;Reims;France;15
+71;Dwight;Monroe;97827;Elgin;USA;82
+72;Warren;Clinton;60528;Frankfurt a.M.;Germany;66
+73;Millard;Van Buren;31000;Toulouse;France;16
+74;Gerald;Harrison;24100;Bergamo;Italy;86
+75;Ronald;Harrison;69004;Lyon;France;28
+76;Rutherford;Wilson;31000;Toulouse;France;46
+77;Dwight;Taylor;1307;Cunewalde;Germany;72
+78;Franklin;Johnson;98128;Seattle;USA;99
+79;Millard;Reagan;59000;Lille;France;74
+80;William;Harding;59000;Lille;France;3
+81;Martin;Arthur;75016;Paris;France;96
+82;Rutherford;Truman;97403;Eugene;USA;16
+83;Woodrow;Jefferson;4179;Leipzig;Germany;19
+84;Thomas;Harding;69004;Lyon;France;43
+85;Richard;Harrison;42100;Reggio Emilia;Italy;10
+86;Abraham;Taft;13008;Marseille;France;92
+87;William;Van Buren;78000;Versailles;France;87
+88;Rutherford;Tyler;97201;Portland;USA;38
+89;Woodrow;Roosevelt;69004;Lyon;France;38
+90;Jimmy;Jefferson;75012;Paris;France;46
+91;George;Adams;69004;Lyon;France;12
+92;Andrew;Grant;52066;Aachen;Germany;19
+93;Thomas;Hoover;94117;San Francisco;USA;29
+94;Franklin;Harrison;42100;Reggio Emilia;Italy;84
+95;Grover;Quincy;50739;Köln;Germany;2
+96;Andrew;Grant;67000;Strasbourg;France;69
+97;Warren;Truman;1307;Cunewalde;Germany;24
+98;Harry;Tyler;70563;Stuttgart;Germany;6
+99;William;Johnson;83720;Boise;USA;48
+100;Grover;Quincy;75016;Paris;France;6
+101;Ulysses;Cleveland;75016;Paris;France;100
+102;Jimmy;Jackson;13008;Marseille;France;45
+103;Chester;Adams;97827;Elgin;USA;12
+104;Ronald;Taylor;75016;Paris;France;24
+105;Chester;Jackson;51100;Reims;France;94
+106;Richard;Arthur;83720;Boise;USA;2
+107;Richard;Johnson;87110;Albuquerque;USA;85
+108;Jimmy;Taft;4179;Leipzig;Germany;84
+109;Millard;Harrison;60528;Frankfurt a.M.;Germany;69
+110;Ronald;Hayes;82520;Lander;USA;7
+111;Grover;Harrison;1307;Cunewalde;Germany;30
+112;Jimmy;Washington;59000;Lille;France;6
+113;Ulysses;Fillmore;50739;Köln;Germany;17
+114;James;Polk;75012;Paris;France;82
+115;Martin;Tyler;60528;Frankfurt a.M.;Germany;21
+116;Abraham;Polk;44087;Münster;Germany;41
+117;Jimmy;Washington;94117;San Francisco;USA;87
+118;Bill;Eisenhower;50739;Köln;Germany;42
+119;Richard;Kennedy;87110;Albuquerque;USA;32
+120;Rutherford;Fillmore;97219;Portland;USA;21
+121;Thomas;Jackson;13008;Marseille;France;45
+122;Grover;Clinton;12209;Berlin;Germany;4
+123;Jimmy;Roosevelt;69004;Lyon;France;50
+124;Theodore;Wilson;97827;Elgin;USA;65
+125;Franklin;Johnson;94117;San Francisco;USA;19
+126;William;Hayes;42100;Reggio Emilia;Italy;56
+127;Benjamin;Washington;87110;Albuquerque;USA;26
+128;Ulysses;Arthur;31000;Toulouse;France;96
+129;Dwight;Kennedy;70563;Stuttgart;Germany;76
+130;Jimmy;Monroe;52066;Aachen;Germany;9
+131;George;Hayes;75012;Paris;France;31
+132;Bill;Ford;97827;Elgin;USA;92
+133;George;Lincoln;13008;Marseille;France;55
+134;Theodore;Eisenhower;59000;Lille;France;41
+135;Dwight;McKinley;82520;Lander;USA;58
+136;Calvin;Kennedy;44000;Nantes;France;12
+137;Herbert;Harrison;97403;Eugene;USA;24
+138;Rutherford;Taft;50739;Köln;Germany;36
+139;Chester;Truman;69004;Lyon;France;45
+140;Warren;Tyler;44000;Nantes;France;12
+141;Martin;Hoover;70563;Stuttgart;Germany;33
+142;Zachary;Harrison;1307;Cunewalde;Germany;33
+143;Harry;Harding;75012;Paris;France;20
+144;George;Jefferson;50739;Köln;Germany;39
+145;Thomas;Polk;75016;Paris;France;1
+146;Harry;Harrison;80805;München;Germany;84
+147;Lyndon;Washington;69004;Lyon;France;71
+148;Ronald;Kennedy;12209;Berlin;Germany;69
+149;Millard;Arthur;59801;Butte;USA;26
+150;Harry;Nixon;97403;Eugene;USA;58
+151;Franklin;Kennedy;14776;Brandenburg;Germany;82
+152;Harry;Carter;1307;Cunewalde;Germany;0
+153;Millard;McKinley;1307;Cunewalde;Germany;20
+154;Lyndon;Monroe;87110;Albuquerque;USA;88
+155;Harry;Johnson;80805;München;Germany;0
+156;Dwight;Grant;82520;Lander;USA;22
+157;Andrew;Harrison;70563;Stuttgart;Germany;90
+158;John;Buchanan;82520;Lander;USA;11
+159;Andrew;Taft;75012;Paris;France;24
+160;Warren;Garfield;83720;Boise;USA;89
+161;Rutherford;Quincy;42100;Reggio Emilia;Italy;36
+162;James;Monroe;69004;Lyon;France;39
+163;Dwight;Reagan;42100;Reggio Emilia;Italy;60
+164;Calvin;Ford;97827;Elgin;USA;97
+165;Gerald;Ford;44000;Nantes;France;30
+166;Millard;Van Buren;68306;Mannheim;Germany;22
+167;Warren;Roosevelt;51100;Reims;France;52
+168;Harry;Tyler;14776;Brandenburg;Germany;10
+169;Chester;Fillmore;51100;Reims;France;81
+170;Thomas;Hayes;75012;Paris;France;88
+171;James;Truman;67000;Strasbourg;France;68
+172;Bill;Ford;97403;Eugene;USA;69
+173;Thomas;Truman;10100;Torino;Italy;21
+174;Warren;Hoover;97403;Eugene;USA;45
+175;Gerald;Van Buren;75016;Paris;France;55
+176;George;Quincy;94117;San Francisco;USA;56
+177;John;Roosevelt;60528;Frankfurt a.M.;Germany;66
+178;Jimmy;Adams;94117;San Francisco;USA;15
+179;Theodore;Coolidge;50739;Köln;Germany;65
+180;Chester;Adams;52066;Aachen;Germany;14
+181;Gerald;Van Buren;75012;Paris;France;5
+182;Gerald;Jefferson;44000;Nantes;France;88
+183;Warren;Buchanan;97403;Eugene;USA;11
+184;Calvin;Van Buren;69004;Lyon;France;54
+185;Andrew;Grant;24100;Bergamo;Italy;28
+186;Richard;Clinton;82520;Lander;USA;91
+187;Millard;Ford;75012;Paris;France;79
+188;Dwight;Monroe;59801;Butte;USA;9
+189;Theodore;Coolidge;75012;Paris;France;25
+190;Franklin;Johnson;44087;Münster;Germany;71
+191;Dwight;Harrison;24100;Bergamo;Italy;36
+192;Andrew;Grant;68306;Mannheim;Germany;54
+193;Martin;McKinley;98034;Kirkland;USA;35
+194;Bill;Reagan;83720;Boise;USA;48
+195;Ulysses;Eisenhower;98128;Seattle;USA;40
+196;Grover;Garfield;31000;Toulouse;France;76
+197;John;Adams;82520;Lander;USA;29
+198;Woodrow;Coolidge;97219;Portland;USA;10
+199;Martin;Ford;59000;Lille;France;95
+200;John;Pierce;98128;Seattle;USA;88
+201;James;Wilson;82520;Lander;USA;2
+202;Theodore;Johnson;13008;Marseille;France;22
+203;Rutherford;Garfield;4179;Leipzig;Germany;58
+204;John;Harrison;83720;Boise;USA;47
+205;Lyndon;Johnson;31000;Toulouse;France;75
+206;Ronald;Hayes;97219;Portland;USA;97
+207;Thomas;Buchanan;4179;Leipzig;Germany;73
+208;Bill;Harding;82520;Lander;USA;73
+209;James;McKinley;98034;Kirkland;USA;26
+210;John;Carter;59000;Lille;France;66
+211;Martin;Van Buren;80805;München;Germany;55
+212;Harry;Jefferson;13008;Marseille;France;19
+213;Rutherford;Buchanan;75012;Paris;France;29
+214;Rutherford;Clinton;59000;Lille;France;64
+215;Calvin;Lincoln;75012;Paris;France;73
+216;Theodore;Clinton;1307;Cunewalde;Germany;89
+217;Ronald;Madison;50739;Köln;Germany;5
+218;Benjamin;Pierce;4179;Leipzig;Germany;19
+219;Franklin;Harrison;24100;Bergamo;Italy;36
+220;Chester;Clinton;97219;Portland;USA;0
+221;Jimmy;Nixon;24100;Bergamo;Italy;49
+222;Thomas;Garfield;50739;Köln;Germany;99
+223;Dwight;Washington;42100;Reggio Emilia;Italy;78
+224;Richard;Ford;4179;Leipzig;Germany;68
+225;Gerald;Quincy;99508;Anchorage;USA;19
+226;Theodore;Johnson;97219;Portland;USA;91
+227;Rutherford;Lincoln;60528;Frankfurt a.M.;Germany;9
+228;Franklin;Roosevelt;60528;Frankfurt a.M.;Germany;35
+229;Zachary;Grant;13008;Marseille;France;57
+230;Woodrow;Jackson;44087;Münster;Germany;30
+231;Abraham;Johnson;13008;Marseille;France;43
+232;Zachary;Tyler;75012;Paris;France;58
+233;Harry;Garfield;59801;Butte;USA;43
+234;Richard;Adams;24100;Bergamo;Italy;52
+235;Woodrow;Carter;31000;Toulouse;France;56
+236;Woodrow;Buchanan;98128;Seattle;USA;17
+237;Warren;Taylor;80805;München;Germany;12
+238;Dwight;Johnson;44087;Münster;Germany;0
+239;George;McKinley;12209;Berlin;Germany;63
+240;Jimmy;Taft;24100;Bergamo;Italy;6
+241;Ulysses;Grant;52066;Aachen;Germany;12
+242;Chester;Roosevelt;14776;Brandenburg;Germany;81
+243;Benjamin;Adams;97827;Elgin;USA;47
+244;Franklin;Reagan;68306;Mannheim;Germany;1
+245;Abraham;Taft;59801;Butte;USA;61
+246;Jimmy;Roosevelt;42100;Reggio Emilia;Italy;89
+247;Millard;Clinton;98128;Seattle;USA;90
+248;Chester;Wilson;1307;Cunewalde;Germany;60
+249;George;Adams;80805;München;Germany;38
+250;James;Taft;75012;Paris;France;67
+251;Harry;Truman;44087;Münster;Germany;49
+252;Warren;Carter;75012;Paris;France;15
+253;Theodore;Jackson;67000;Strasbourg;France;84
+254;John;Carter;70563;Stuttgart;Germany;24
+255;John;Garfield;59801;Butte;USA;61
+256;George;Johnson;52066;Aachen;Germany;49
+257;Benjamin;Carter;68306;Mannheim;Germany;22
+258;Richard;Adams;24100;Bergamo;Italy;48
+259;Jimmy;McKinley;83720;Boise;USA;20
+260;Gerald;Fillmore;82520;Lander;USA;50
+261;Woodrow;Nixon;97219;Portland;USA;97
+262;Millard;Coolidge;1307;Cunewalde;Germany;44
+263;Harry;Reagan;97219;Portland;USA;10
+264;William;Tyler;97403;Eugene;USA;49
+265;Millard;Tyler;60528;Frankfurt a.M.;Germany;57
+266;Theodore;Adams;44000;Nantes;France;38
+267;Franklin;Johnson;24100;Bergamo;Italy;10
+268;Ulysses;Clinton;1307;Cunewalde;Germany;55
+269;James;Arthur;75012;Paris;France;38
+270;Lyndon;Buchanan;52066;Aachen;Germany;32
+271;Theodore;Truman;83720;Boise;USA;51
+272;Dwight;Washington;82520;Lander;USA;25
+273;Woodrow;Cleveland;75012;Paris;France;96
+274;Ronald;Kennedy;12209;Berlin;Germany;6
+275;Herbert;Adams;31000;Toulouse;France;50
+276;Bill;Hayes;60528;Frankfurt a.M.;Germany;37
+277;Zachary;Cleveland;82520;Lander;USA;95
+278;Rutherford;Garfield;52066;Aachen;Germany;35
+279;George;Grant;68306;Mannheim;Germany;66
+280;Ulysses;Pierce;44087;Münster;Germany;87
+281;Grover;Nixon;83720;Boise;USA;63
+282;Millard;Hoover;51100;Reims;France;11
+283;Benjamin;Buchanan;14776;Brandenburg;Germany;32
+284;Franklin;Polk;10100;Torino;Italy;93
+285;Andrew;Arthur;68306;Mannheim;Germany;19
+286;Zachary;Jackson;50739;Köln;Germany;4
+287;Andrew;McKinley;59801;Butte;USA;37
+288;Dwight;Fillmore;78000;Versailles;France;100
+289;Richard;Adams;97219;Portland;USA;80
+290;James;Wilson;44087;Münster;Germany;27
+291;Warren;Clinton;68306;Mannheim;Germany;84
+292;Millard;Fillmore;75016;Paris;France;83
+293;Andrew;Tyler;52066;Aachen;Germany;69
+294;Grover;Johnson;80805;München;Germany;85
+295;Woodrow;Truman;75012;Paris;France;91
+296;Lyndon;McKinley;12209;Berlin;Germany;100
+297;William;Reagan;75012;Paris;France;0
+298;Harry;Cleveland;68306;Mannheim;Germany;0
+299;Benjamin;Hoover;14776;Brandenburg;Germany;12
+300;Franklin;Monroe;31000;Toulouse;France;91
+301;John;Garfield;50739;Köln;Germany;2
+302;James;Clinton;75016;Paris;France;40
+303;Richard;Harrison;94117;San Francisco;USA;66
+304;William;Johnson;69004;Lyon;France;70
+305;Herbert;Grant;44087;Münster;Germany;12
+306;Warren;Monroe;68306;Mannheim;Germany;80
+307;Abraham;Harding;82520;Lander;USA;57
+308;George;Quincy;78000;Versailles;France;46
+309;Lyndon;McKinley;70563;Stuttgart;Germany;39
+310;William;Harrison;75012;Paris;France;72
+311;Benjamin;Johnson;70563;Stuttgart;Germany;4
+312;Gerald;Garfield;75016;Paris;France;90
+313;Calvin;Taft;87110;Albuquerque;USA;86
+314;Chester;Tyler;67000;Strasbourg;France;0
+315;James;Jefferson;70563;Stuttgart;Germany;37
+316;Theodore;Johnson;44000;Nantes;France;11
+317;George;Adams;83720;Boise;USA;4
+318;Thomas;Roosevelt;51100;Reims;France;55
+319;Dwight;Lincoln;13008;Marseille;France;13
+320;Harry;Buchanan;97219;Portland;USA;24
+321;Calvin;Quincy;13008;Marseille;France;83
+322;Woodrow;Grant;44087;Münster;Germany;13
+323;Gerald;Eisenhower;70563;Stuttgart;Germany;16
+324;William;Roosevelt;87110;Albuquerque;USA;70
+325;Gerald;McKinley;75016;Paris;France;84
+326;James;Grant;97219;Portland;USA;87
+327;James;Roosevelt;50739;Köln;Germany;29
+328;Rutherford;Buchanan;69004;Lyon;France;4
+329;Martin;Polk;80805;München;Germany;34
+330;Jimmy;Johnson;83720;Boise;USA;29
+331;Martin;Hoover;82520;Lander;USA;17
+332;Lyndon;Garfield;97403;Eugene;USA;35
+333;Jimmy;Roosevelt;68306;Mannheim;Germany;11
+334;Ronald;Van Buren;44087;Münster;Germany;32
+335;George;Harrison;82520;Lander;USA;73
+336;Jimmy;Clinton;69004;Lyon;France;8
+337;Warren;Jefferson;59801;Butte;USA;93
+338;Bill;Jefferson;59801;Butte;USA;30
+339;Jimmy;Jefferson;12209;Berlin;Germany;8
+340;Grover;Coolidge;44000;Nantes;France;39
+341;Lyndon;Coolidge;67000;Strasbourg;France;75
+342;Franklin;Quincy;78000;Versailles;France;47
+343;Ulysses;Adams;51100;Reims;France;7
+344;John;Eisenhower;67000;Strasbourg;France;84
+345;Bill;Coolidge;52066;Aachen;Germany;10
+346;George;Buchanan;83720;Boise;USA;35
+347;Herbert;Arthur;97201;Portland;USA;67
+348;John;Hoover;69004;Lyon;France;74
+349;Harry;Cleveland;83720;Boise;USA;0
+350;Theodore;Polk;68306;Mannheim;Germany;49
+351;Franklin;Wilson;52066;Aachen;Germany;93
+352;Zachary;Adams;59000;Lille;France;0
+353;Thomas;Quincy;97219;Portland;USA;31
+354;Bill;Cleveland;52066;Aachen;Germany;67
+355;Martin;Johnson;97403;Eugene;USA;17
+356;Richard;Grant;82520;Lander;USA;1
+357;Benjamin;Coolidge;59801;Butte;USA;0
+358;Jimmy;Grant;98034;Kirkland;USA;42
+359;Dwight;Tyler;69004;Lyon;France;46
+360;Andrew;Coolidge;67000;Strasbourg;France;61
+361;George;Roosevelt;59801;Butte;USA;61
+362;Bill;Ford;97827;Elgin;USA;42
+363;Gerald;Pierce;97403;Eugene;USA;69
+364;Chester;Reagan;50739;Köln;Germany;62
+365;Franklin;Lincoln;10100;Torino;Italy;54
+366;Harry;Kennedy;98128;Seattle;USA;56
+367;Ulysses;Eisenhower;80805;München;Germany;75
+368;Chester;Arthur;67000;Strasbourg;France;99
+369;Bill;Taft;51100;Reims;France;46
+370;Gerald;Hayes;67000;Strasbourg;France;87
+371;Chester;Arthur;67000;Strasbourg;France;49
+372;Benjamin;Harrison;80805;München;Germany;74
+373;Calvin;Madison;50739;Köln;Germany;1
+374;Andrew;Hoover;82520;Lander;USA;93
+375;John;Clinton;44087;Münster;Germany;8
+376;Ronald;Cleveland;60528;Frankfurt a.M.;Germany;66
+377;James;Harrison;12209;Berlin;Germany;66
+378;Ulysses;Buchanan;12209;Berlin;Germany;52
+379;Woodrow;Ford;87110;Albuquerque;USA;88
+380;Martin;Van Buren;97219;Portland;USA;39
+381;James;Adams;97403;Eugene;USA;64
+382;Benjamin;Harding;82520;Lander;USA;39
+383;Theodore;Ford;69004;Lyon;France;11
+384;Gerald;Hayes;98128;Seattle;USA;28
+385;Dwight;Kennedy;1307;Cunewalde;Germany;58
+386;Franklin;Hoover;94117;San Francisco;USA;85
+387;Ronald;Taft;52066;Aachen;Germany;50
+388;William;Carter;44087;Münster;Germany;70
+389;Rutherford;Van Buren;13008;Marseille;France;89
+390;Harry;Polk;97201;Portland;USA;70
+391;Bill;Pierce;51100;Reims;France;23
+392;John;Quincy;69004;Lyon;France;20
+393;Zachary;Garfield;82520;Lander;USA;84
+394;Millard;Eisenhower;97219;Portland;USA;59
+395;Richard;Polk;83720;Boise;USA;63
+396;Dwight;Clinton;69004;Lyon;France;48
+397;Gerald;Van Buren;59801;Butte;USA;8
+398;Theodore;Madison;44000;Nantes;France;13
+399;Richard;Harrison;97403;Eugene;USA;68
+400;Ronald;Clinton;44000;Nantes;France;1
+401;Lyndon;Grant;44000;Nantes;France;81
+402;Herbert;Nixon;75012;Paris;France;11
+403;Lyndon;Pierce;24100;Bergamo;Italy;24
+404;Jimmy;Kennedy;75016;Paris;France;15
+405;Zachary;Grant;75012;Paris;France;59
+406;Gerald;Buchanan;42100;Reggio Emilia;Italy;80
+407;George;Adams;12209;Berlin;Germany;39
+408;Andrew;Taylor;10100;Torino;Italy;43
+409;Calvin;Grant;87110;Albuquerque;USA;42
+410;Harry;Pierce;50739;Köln;Germany;24
+411;Zachary;Madison;50739;Köln;Germany;47
+412;Lyndon;Jefferson;82520;Lander;USA;92
+413;Ulysses;Johnson;60528;Frankfurt a.M.;Germany;71
+414;Ronald;Wilson;94117;San Francisco;USA;30
+415;Benjamin;Monroe;42100;Reggio Emilia;Italy;0
+416;Gerald;Garfield;1307;Cunewalde;Germany;86
+417;Richard;Hoover;31000;Toulouse;France;43
+418;Lyndon;Buchanan;78000;Versailles;France;48
+419;Ulysses;Carter;52066;Aachen;Germany;35
+420;George;McKinley;69004;Lyon;France;58
+421;Gerald;Lincoln;12209;Berlin;Germany;0
+422;Franklin;Kennedy;60528;Frankfurt a.M.;Germany;28
+423;James;Grant;13008;Marseille;France;79
+424;Herbert;Reagan;1307;Cunewalde;Germany;18
+425;James;Jefferson;31000;Toulouse;France;33
+426;Jimmy;Arthur;24100;Bergamo;Italy;74
+427;Benjamin;Eisenhower;52066;Aachen;Germany;55
+428;Rutherford;Buchanan;78000;Versailles;France;93
+429;Woodrow;Harrison;60528;Frankfurt a.M.;Germany;78
+430;Benjamin;Monroe;97219;Portland;USA;79
+431;Andrew;Ford;60528;Frankfurt a.M.;Germany;93
+432;Bill;Wilson;42100;Reggio Emilia;Italy;48
+433;Andrew;Roosevelt;44000;Nantes;France;0
+434;Zachary;Tyler;83720;Boise;USA;10
+435;John;Taft;94117;San Francisco;USA;96
+436;Theodore;Buchanan;52066;Aachen;Germany;13
+437;John;Truman;60528;Frankfurt a.M.;Germany;99
+438;Theodore;Roosevelt;50739;Köln;Germany;40
+439;Calvin;Reagan;51100;Reims;France;44
+440;Thomas;Buchanan;99508;Anchorage;USA;2
+441;Theodore;Van Buren;24100;Bergamo;Italy;92
+442;George;Johnson;97827;Elgin;USA;14
+443;Woodrow;Arthur;31000;Toulouse;France;0
+444;John;Van Buren;59000;Lille;France;24
+445;Andrew;Roosevelt;51100;Reims;France;93
+446;Benjamin;Nixon;83720;Boise;USA;22
+447;John;Taft;97403;Eugene;USA;0
+448;Martin;Hayes;94117;San Francisco;USA;3
+449;Martin;Wilson;98034;Kirkland;USA;24
+450;Theodore;Tyler;44000;Nantes;France;97
+451;Thomas;Taylor;70563;Stuttgart;Germany;29
+452;George;Madison;44087;Münster;Germany;22
+453;George;Adams;44087;Münster;Germany;91
+454;Franklin;Garfield;75012;Paris;France;29
+455;Chester;Washington;44000;Nantes;France;9
+456;Jimmy;Taft;97219;Portland;USA;96
+457;Herbert;Nixon;97827;Elgin;USA;47
+458;Grover;Hayes;10100;Torino;Italy;100
+459;Woodrow;Quincy;94117;San Francisco;USA;55
+460;Ulysses;Monroe;51100;Reims;France;33
+461;Rutherford;Washington;75012;Paris;France;92
+462;Franklin;Harrison;97827;Elgin;USA;21
+463;Jimmy;Eisenhower;97201;Portland;USA;90
+464;Rutherford;Pierce;75016;Paris;France;29
+465;Jimmy;Truman;97219;Portland;USA;4
+466;Abraham;Washington;31000;Toulouse;France;10
+467;Richard;Johnson;98128;Seattle;USA;15
+468;Dwight;Taft;69004;Lyon;France;2
+469;Chester;Carter;51100;Reims;France;49
+470;Millard;Harrison;83720;Boise;USA;37
+471;Martin;Adams;4179;Leipzig;Germany;93
+472;Theodore;Taylor;80805;München;Germany;77
+473;William;Cleveland;1307;Cunewalde;Germany;38
+474;Herbert;Lincoln;75016;Paris;France;44
+475;Ronald;Harrison;12209;Berlin;Germany;2
+476;Thomas;Kennedy;14776;Brandenburg;Germany;77
+477;Lyndon;Washington;99508;Anchorage;USA;21
+478;Ronald;Polk;80805;München;Germany;60
+479;Andrew;Adams;44087;Münster;Germany;92
+480;Andrew;Tyler;98034;Kirkland;USA;25
+481;Gerald;Wilson;51100;Reims;France;95
+482;Ronald;Reagan;68306;Mannheim;Germany;0
+483;James;Roosevelt;75012;Paris;France;40
+484;Lyndon;Buchanan;97219;Portland;USA;61
+485;William;Jefferson;59000;Lille;France;82
+486;Thomas;Polk;87110;Albuquerque;USA;50
+487;Abraham;Monroe;83720;Boise;USA;0
+488;Harry;Ford;4179;Leipzig;Germany;96
+489;William;Lincoln;42100;Reggio Emilia;Italy;63
+490;Millard;Hoover;87110;Albuquerque;USA;36
+491;Lyndon;Adams;80805;München;Germany;73
+492;Warren;Hoover;98034;Kirkland;USA;66
+493;Ronald;Hoover;44000;Nantes;France;56
+494;Gerald;Adams;69004;Lyon;France;50
+495;Chester;Harrison;13008;Marseille;France;51
+496;James;Jackson;83720;Boise;USA;17
+497;Martin;Truman;78000;Versailles;France;93
+498;Lyndon;Harrison;69004;Lyon;France;6
+499;Warren;Buchanan;59801;Butte;USA;75
+500;Warren;Monroe;31000;Toulouse;France;34
+501;Richard;Nixon;44000;Nantes;France;8
+502;Ulysses;Fillmore;67000;Strasbourg;France;34
+503;James;Wilson;50739;Köln;Germany;80
+504;Franklin;Hayes;80805;München;Germany;70
+505;Harry;McKinley;70563;Stuttgart;Germany;16
+506;John;Carter;60528;Frankfurt a.M.;Germany;89
+507;Richard;Reagan;97201;Portland;USA;98
+508;Bill;Hayes;80805;München;Germany;70
+509;Abraham;Arthur;78000;Versailles;France;47
+510;Andrew;Ford;83720;Boise;USA;91
+511;William;Hoover;99508;Anchorage;USA;18
+512;Dwight;Cleveland;4179;Leipzig;Germany;93
+513;Millard;Clinton;68306;Mannheim;Germany;55
+514;Ulysses;Taft;60528;Frankfurt a.M.;Germany;86
+515;Thomas;Jackson;31000;Toulouse;France;15
+516;George;Fillmore;75012;Paris;France;0
+517;Bill;Hayes;24100;Bergamo;Italy;70
+518;Gerald;Quincy;14776;Brandenburg;Germany;12
+519;Grover;McKinley;52066;Aachen;Germany;38
+520;Bill;Jackson;87110;Albuquerque;USA;78
+521;Franklin;Quincy;97403;Eugene;USA;90
+522;Richard;Quincy;98128;Seattle;USA;18
+523;Bill;Harrison;12209;Berlin;Germany;60
+524;Woodrow;Arthur;75016;Paris;France;44
+525;Gerald;McKinley;31000;Toulouse;France;0
+526;Warren;Reagan;42100;Reggio Emilia;Italy;54
+527;Bill;Jackson;60528;Frankfurt a.M.;Germany;13
+528;Harry;Kennedy;97219;Portland;USA;91
+529;Thomas;Clinton;60528;Frankfurt a.M.;Germany;86
+530;Bill;Monroe;44000;Nantes;France;0
+531;Ronald;Nixon;82520;Lander;USA;0
+532;Benjamin;McKinley;99508;Anchorage;USA;32
+533;Chester;Adams;12209;Berlin;Germany;55
+534;Grover;Arthur;97219;Portland;USA;0
+535;James;Washington;87110;Albuquerque;USA;67
+536;Martin;McKinley;70563;Stuttgart;Germany;37
+537;Jimmy;Nixon;31000;Toulouse;France;95
+538;Warren;Reagan;97201;Portland;USA;40
+539;Franklin;Taft;98128;Seattle;USA;0
+540;John;Truman;98034;Kirkland;USA;67
+541;Franklin;Harrison;24100;Bergamo;Italy;47
+542;Chester;McKinley;52066;Aachen;Germany;85
+543;Grover;Roosevelt;1307;Cunewalde;Germany;47
+544;Calvin;Jackson;59801;Butte;USA;64
+545;Dwight;Pierce;52066;Aachen;Germany;75
+546;Abraham;Harrison;98128;Seattle;USA;40
+547;Rutherford;Adams;24100;Bergamo;Italy;63
+548;Woodrow;Roosevelt;75012;Paris;France;98
+549;Benjamin;Reagan;60528;Frankfurt a.M.;Germany;48
+550;Rutherford;Quincy;44087;Münster;Germany;98
+551;Ulysses;Cleveland;44087;Münster;Germany;41
+552;Rutherford;Truman;52066;Aachen;Germany;1
+553;William;Eisenhower;68306;Mannheim;Germany;100
+554;Abraham;Grant;60528;Frankfurt a.M.;Germany;14
+555;John;Coolidge;82520;Lander;USA;50
+556;Grover;Roosevelt;4179;Leipzig;Germany;73
+557;Andrew;Harding;87110;Albuquerque;USA;61
+558;Warren;Grant;52066;Aachen;Germany;30
+559;Ulysses;Wilson;97219;Portland;USA;15
+560;Rutherford;Washington;83720;Boise;USA;30
+561;Ronald;Polk;97219;Portland;USA;58
+562;William;Harrison;67000;Strasbourg;France;67
+563;George;Grant;12209;Berlin;Germany;45
+564;Jimmy;Polk;68306;Mannheim;Germany;88
+565;William;Tyler;70563;Stuttgart;Germany;89
+566;Millard;Roosevelt;13008;Marseille;France;63
+567;Millard;Harrison;42100;Reggio Emilia;Italy;54
+568;Thomas;Buchanan;97403;Eugene;USA;11
+569;Warren;Hoover;97403;Eugene;USA;5
+570;Chester;Eisenhower;51100;Reims;France;70
+571;Benjamin;Quincy;70563;Stuttgart;Germany;67
+572;Ulysses;Reagan;70563;Stuttgart;Germany;8
+573;Jimmy;Ford;1307;Cunewalde;Germany;3
+574;Lyndon;Truman;31000;Toulouse;France;2
+575;Benjamin;Ford;87110;Albuquerque;USA;97
+576;Theodore;Carter;83720;Boise;USA;9
+577;Grover;Jefferson;67000;Strasbourg;France;91
+578;Harry;Tyler;14776;Brandenburg;Germany;88
+579;Woodrow;Hayes;97201;Portland;USA;6
+580;Millard;Hayes;98128;Seattle;USA;5
+581;Abraham;Garfield;52066;Aachen;Germany;64
+582;Millard;Hayes;13008;Marseille;France;3
+583;Bill;Johnson;94117;San Francisco;USA;70
+584;James;Polk;44000;Nantes;France;81
+585;Ulysses;Cleveland;97403;Eugene;USA;53
+586;John;Washington;31000;Toulouse;France;67
+587;Benjamin;Johnson;97403;Eugene;USA;19
+588;Theodore;Jefferson;14776;Brandenburg;Germany;13
+589;William;Tyler;59801;Butte;USA;59
+590;Ronald;Monroe;59000;Lille;France;6
+591;Benjamin;Roosevelt;78000;Versailles;France;79
+592;James;Kennedy;87110;Albuquerque;USA;57
+593;John;Wilson;42100;Reggio Emilia;Italy;54
+594;Thomas;Truman;51100;Reims;France;25
+595;Rutherford;Eisenhower;24100;Bergamo;Italy;75
+596;William;Johnson;97403;Eugene;USA;8
+597;Herbert;Garfield;13008;Marseille;France;40
+598;Rutherford;Quincy;13008;Marseille;France;15
+599;Ulysses;Taylor;10100;Torino;Italy;86
+600;Thomas;Wilson;87110;Albuquerque;USA;92
+601;Dwight;Pierce;50739;Köln;Germany;79
+602;Andrew;Nixon;50739;Köln;Germany;67
+603;Lyndon;Johnson;4179;Leipzig;Germany;52
+604;Gerald;Adams;69004;Lyon;France;0
+605;Franklin;Roosevelt;97219;Portland;USA;31
+606;Calvin;Madison;42100;Reggio Emilia;Italy;56
+607;Theodore;Johnson;98128;Seattle;USA;0
+608;Warren;Reagan;4179;Leipzig;Germany;98
+609;Dwight;Roosevelt;24100;Bergamo;Italy;83
+610;Benjamin;Buchanan;82520;Lander;USA;20
+611;Franklin;Jefferson;13008;Marseille;France;64
+612;Gerald;Hoover;97219;Portland;USA;75
+613;Herbert;Johnson;99508;Anchorage;USA;48
+614;Ronald;Washington;59000;Lille;France;7
+615;Andrew;Madison;13008;Marseille;France;38
+616;Chester;Cleveland;75016;Paris;France;5
+617;Richard;Ford;67000;Strasbourg;France;21
+618;Harry;Polk;50739;Köln;Germany;0
+619;Grover;Pierce;31000;Toulouse;France;0
+620;George;Roosevelt;83720;Boise;USA;26
+621;Bill;Hayes;10100;Torino;Italy;86
+622;Ronald;Pierce;52066;Aachen;Germany;17
+623;Ulysses;Harrison;97201;Portland;USA;9
+624;George;Hayes;97827;Elgin;USA;100
+625;Grover;Tyler;10100;Torino;Italy;0
+626;Rutherford;Buchanan;12209;Berlin;Germany;13
+627;Bill;Fillmore;97403;Eugene;USA;54
+628;Harry;Truman;31000;Toulouse;France;76
+629;Jimmy;Pierce;59000;Lille;France;0
+630;Herbert;Fillmore;51100;Reims;France;24
+631;Chester;Adams;97403;Eugene;USA;79
+632;Benjamin;Carter;1307;Cunewalde;Germany;81
+633;John;Polk;97827;Elgin;USA;59
+634;Rutherford;Roosevelt;97219;Portland;USA;18
+635;Harry;Roosevelt;98034;Kirkland;USA;0
+636;Theodore;Harrison;59801;Butte;USA;0
+637;Ulysses;Taylor;68306;Mannheim;Germany;45
+638;Harry;Reagan;80805;München;Germany;38
+639;Thomas;Ford;97827;Elgin;USA;25
+640;Woodrow;Taft;99508;Anchorage;USA;59
+641;Thomas;Quincy;94117;San Francisco;USA;56
+642;George;Lincoln;83720;Boise;USA;26
+643;Rutherford;Cleveland;97201;Portland;USA;0
+644;Thomas;Polk;42100;Reggio Emilia;Italy;0
+645;Harry;Jefferson;50739;Köln;Germany;58
+646;Bill;Van Buren;50739;Köln;Germany;6
+647;Zachary;Lincoln;44000;Nantes;France;14
+648;Herbert;Roosevelt;24100;Bergamo;Italy;97
+649;Dwight;Polk;67000;Strasbourg;France;2
+650;Franklin;Eisenhower;98128;Seattle;USA;63
+651;Herbert;Buchanan;75016;Paris;France;88
+652;Martin;Quincy;97403;Eugene;USA;40
+653;Jimmy;Adams;1307;Cunewalde;Germany;6
+654;James;Taft;4179;Leipzig;Germany;78
+655;Jimmy;Eisenhower;69004;Lyon;France;83
+656;Martin;Reagan;59801;Butte;USA;54
+657;John;Van Buren;60528;Frankfurt a.M.;Germany;7
+658;Chester;Taylor;42100;Reggio Emilia;Italy;62
+659;Gerald;Quincy;83720;Boise;USA;37
+660;Calvin;Tyler;98128;Seattle;USA;27
+661;Lyndon;Van Buren;52066;Aachen;Germany;0
+662;Theodore;Nixon;75012;Paris;France;73
+663;Herbert;Garfield;44000;Nantes;France;27
+664;Chester;Harding;44000;Nantes;France;80
+665;Thomas;Reagan;78000;Versailles;France;88
+666;Andrew;McKinley;24100;Bergamo;Italy;51
+667;John;Quincy;87110;Albuquerque;USA;66
+668;Calvin;Roosevelt;14776;Brandenburg;Germany;56
+669;John;Coolidge;75012;Paris;France;72
+670;Millard;Ford;99508;Anchorage;USA;42
+671;Chester;Pierce;75012;Paris;France;51
+672;Herbert;Ford;59801;Butte;USA;97
+673;Thomas;Truman;70563;Stuttgart;Germany;75
+674;Ulysses;Roosevelt;99508;Anchorage;USA;4
+675;Woodrow;Buchanan;44000;Nantes;France;3
+676;Gerald;Cleveland;50739;Köln;Germany;12
+677;Abraham;Lincoln;50739;Köln;Germany;98
+678;Dwight;Adams;67000;Strasbourg;France;1
+679;Andrew;Hoover;44000;Nantes;France;95
+680;George;Tyler;42100;Reggio Emilia;Italy;87
+681;Rutherford;Jackson;70563;Stuttgart;Germany;27
+682;Ulysses;Johnson;67000;Strasbourg;France;41
+683;Abraham;Nixon;42100;Reggio Emilia;Italy;52
+684;John;Grant;98128;Seattle;USA;31
+685;Richard;Eisenhower;83720;Boise;USA;6
+686;Bill;Harding;59000;Lille;France;4
+687;Millard;Taft;60528;Frankfurt a.M.;Germany;30
+688;Jimmy;Buchanan;99508;Anchorage;USA;0
+689;Dwight;Hoover;70563;Stuttgart;Germany;36
+690;Rutherford;Coolidge;44087;Münster;Germany;95
+691;Dwight;Taft;75012;Paris;France;0
+692;Grover;Harrison;51100;Reims;France;82
+693;Dwight;Wilson;87110;Albuquerque;USA;45
+694;Rutherford;Harding;98034;Kirkland;USA;49
+695;John;Fillmore;97219;Portland;USA;0
+696;Dwight;Harrison;69004;Lyon;France;9
+697;Thomas;Cleveland;67000;Strasbourg;France;50
+698;Benjamin;Wilson;83720;Boise;USA;14
+699;Woodrow;Reagan;60528;Frankfurt a.M.;Germany;0
+700;Benjamin;Coolidge;59801;Butte;USA;34
+701;Dwight;Washington;67000;Strasbourg;France;42
+702;John;Tyler;97403;Eugene;USA;10
+703;William;Hayes;97827;Elgin;USA;19
+704;Herbert;Polk;70563;Stuttgart;Germany;66
+705;Warren;Van Buren;59000;Lille;France;85
+706;Andrew;Garfield;70563;Stuttgart;Germany;91
+707;Warren;Taylor;80805;München;Germany;70
+708;Abraham;Monroe;31000;Toulouse;France;41
+709;Abraham;Coolidge;99508;Anchorage;USA;4
+710;Bill;Grant;75016;Paris;France;17
+711;William;Madison;78000;Versailles;France;65
+712;James;Ford;44087;Münster;Germany;36
+713;Theodore;Roosevelt;70563;Stuttgart;Germany;78
+714;Gerald;Polk;60528;Frankfurt a.M.;Germany;36
+715;Franklin;Reagan;4179;Leipzig;Germany;97
+716;Chester;Reagan;99508;Anchorage;USA;34
+717;Jimmy;Roosevelt;51100;Reims;France;22
+718;Harry;Jackson;75016;Paris;France;3
+719;James;Tyler;44000;Nantes;France;91
+720;Herbert;Carter;99508;Anchorage;USA;21
+721;Lyndon;Nixon;97827;Elgin;USA;70
+722;Grover;Jefferson;75016;Paris;France;12
+723;Jimmy;Clinton;99508;Anchorage;USA;97
+724;Thomas;Nixon;80805;München;Germany;55
+725;Calvin;Pierce;99508;Anchorage;USA;38
+726;Warren;Pierce;99508;Anchorage;USA;10
+727;John;McKinley;24100;Bergamo;Italy;34
+728;Ulysses;Washington;50739;Köln;Germany;87
+729;Ulysses;Garfield;75012;Paris;France;31
+730;Benjamin;Ford;52066;Aachen;Germany;39
+731;George;Jefferson;97403;Eugene;USA;12
+732;Calvin;Truman;10100;Torino;Italy;13
+733;George;Pierce;78000;Versailles;France;72
+734;Gerald;Adams;13008;Marseille;France;48
+735;Calvin;Fillmore;97827;Elgin;USA;8
+736;Dwight;Madison;24100;Bergamo;Italy;62
+737;Calvin;Harrison;75016;Paris;France;96
+738;Ulysses;Washington;52066;Aachen;Germany;45
+739;Ronald;Cleveland;97403;Eugene;USA;25
+740;Gerald;Washington;59000;Lille;France;45
+741;Benjamin;Buchanan;44000;Nantes;France;24
+742;Calvin;Johnson;98128;Seattle;USA;46
+743;Andrew;Grant;78000;Versailles;France;21
+744;Theodore;Arthur;44000;Nantes;France;33
+745;James;Van Buren;83720;Boise;USA;20
+746;Millard;Madison;60528;Frankfurt a.M.;Germany;55
+747;Warren;Buchanan;44087;Münster;Germany;35
+748;Warren;Taft;80805;München;Germany;40
+749;Theodore;Harrison;44000;Nantes;France;23
+750;Chester;McKinley;68306;Mannheim;Germany;47
+751;Thomas;Adams;75016;Paris;France;54
+752;Ronald;Tyler;98034;Kirkland;USA;82
+753;Gerald;Pierce;14776;Brandenburg;Germany;17
+754;James;Taft;68306;Mannheim;Germany;100
+755;Ulysses;Wilson;60528;Frankfurt a.M.;Germany;88
+756;Andrew;Reagan;50739;Köln;Germany;83
+757;Jimmy;Roosevelt;99508;Anchorage;USA;25
+758;James;Coolidge;94117;San Francisco;USA;63
+759;Benjamin;Ford;67000;Strasbourg;France;46
+760;Bill;Van Buren;67000;Strasbourg;France;57
+761;Woodrow;Quincy;42100;Reggio Emilia;Italy;11
+762;Franklin;Coolidge;87110;Albuquerque;USA;42
+763;Millard;Adams;98034;Kirkland;USA;25
+764;Bill;Roosevelt;97201;Portland;USA;43
+765;Thomas;Harding;87110;Albuquerque;USA;6
+766;Theodore;Eisenhower;78000;Versailles;France;64
+767;Warren;Monroe;50739;Köln;Germany;81
+768;George;Monroe;12209;Berlin;Germany;0
+769;George;Reagan;83720;Boise;USA;74
+770;Rutherford;Johnson;59000;Lille;France;16
+771;Warren;Polk;50739;Köln;Germany;80
+772;Jimmy;Coolidge;13008;Marseille;France;59
+773;Richard;Lincoln;98034;Kirkland;USA;0
+774;Ulysses;Quincy;97201;Portland;USA;64
+775;Chester;Harrison;59000;Lille;France;18
+776;Grover;Polk;68306;Mannheim;Germany;65
+777;Jimmy;Clinton;60528;Frankfurt a.M.;Germany;54
+778;Benjamin;Fillmore;75012;Paris;France;92
+779;Andrew;Jackson;44000;Nantes;France;34
+780;Thomas;Polk;78000;Versailles;France;0
+781;Martin;Van Buren;60528;Frankfurt a.M.;Germany;3
+782;Thomas;Lincoln;98034;Kirkland;USA;78
+783;Rutherford;Buchanan;31000;Toulouse;France;85
+784;Gerald;Washington;1307;Cunewalde;Germany;78
+785;George;Monroe;59801;Butte;USA;0
+786;Dwight;Coolidge;97201;Portland;USA;18
+787;Warren;Ford;97827;Elgin;USA;0
+788;Lyndon;Buchanan;78000;Versailles;France;93
+789;Theodore;McKinley;68306;Mannheim;Germany;88
+790;Theodore;Coolidge;44087;Münster;Germany;0
+791;Grover;McKinley;83720;Boise;USA;61
+792;Herbert;Quincy;67000;Strasbourg;France;68
+793;Lyndon;Fillmore;97403;Eugene;USA;0
+794;Chester;Van Buren;97219;Portland;USA;58
+795;Lyndon;McKinley;83720;Boise;USA;64
+796;Ronald;Van Buren;97201;Portland;USA;79
+797;William;Tyler;97219;Portland;USA;0
+798;Chester;Eisenhower;13008;Marseille;France;20
+799;Ronald;Harrison;78000;Versailles;France;59
+800;John;Polk;98034;Kirkland;USA;45
