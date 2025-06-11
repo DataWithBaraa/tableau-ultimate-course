@@ -1,9 +1,12 @@
 # 📊 Data With Baraa — Tableau Ultimate Course
 
-Welcome to the official repository for **Data With Baraa’s Tableau Ultimate Course**!  
-Here you'll find **all Tableau workbooks, datasets, project files, and documentation** used in my YouTube series and real-world projects.
+Welcome to the official repository for **Data With Baraa’s Tableau Ultimate Course**!
+
+🎥 **Start learning now — watch the complete, high-quality 20-hour Tableau course for free on YouTube:**  
+👉 [Watch on YouTube](https://youtu.be/K3pXnbniUcM)
 
 ---
+
 
 ## 📚 Table of Contents
 
