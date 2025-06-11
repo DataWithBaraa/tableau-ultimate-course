@@ -1,0 +1,11 @@
+OrderID;Customer;Category;Product;Sales
+1;John;A;P-1;5
+2;John;A;P-1;15
+3;John;A;P-1;20
+4;Maria;A;P-2;15
+5;Michael;A;P-2;30
+6;Michael;A;P-2;5
+7;John;B;P-3;25
+8;Maria;B;P-3;20
+9;Maria;B;P-4;10
+10;Michael;B;P-4;5
