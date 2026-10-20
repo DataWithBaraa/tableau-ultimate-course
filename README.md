@@ -16,7 +16,7 @@ tableau-ultimate-course/
 │   └── non-eu/                   the same files with a dot: 12.5
 ├── 02_docs/                      the slides and the cheat sheets, as PDF
 ├── 03_workbooks/                 the finished workbook of every section (.twbx)
-└── 04_projects/                  the two end-to-end projects
+└── 04_projects/                  the two end-to-end projects, each with its requirements
     ├── sales-dashboard-project/  the sales and customer dashboards
     └── hr-dashboard-project/     the HR dashboard
 ```
@@ -41,10 +41,10 @@ Materials on my website: [SQL](https://www.datawithbaraa.com/wiki/sql) · [Pytho
 
 ### The Tableau projects
 
-| Project | YouTube | Materials | Tableau Public |
-|:--|:--|:--|:--|
-| **Sales Dashboard** | [Watch](https://youtu.be/dahrmqT5GD4) | [sales-dashboard-project](04_projects/sales-dashboard-project) | [My vizzes](https://public.tableau.com/app/profile/baraa.salkini/vizzes) |
-| **HR Dashboard** | [Watch](https://youtu.be/UcGF09Awm4Y) | [hr-dashboard-project](04_projects/hr-dashboard-project) | same profile |
+| Project | YouTube | Requirements | Materials | Tableau Public |
+|:--|:--|:--|:--|:--|
+| **Sales Dashboard** | [Watch](https://youtu.be/dahrmqT5GD4) | [PDF](04_projects/sales-dashboard-project/Project_Requirements.pdf) | [sales-dashboard-project](04_projects/sales-dashboard-project) | [My vizzes](https://public.tableau.com/app/profile/baraa.salkini/vizzes) |
+| **HR Dashboard** | [Watch](https://youtu.be/UcGF09Awm4Y) | [PDF](04_projects/hr-dashboard-project/Project_Requirements.pdf) | [hr-dashboard-project](04_projects/hr-dashboard-project) | same profile |
 
 More on YouTube: [Data projects](https://www.youtube.com/playlist?list=PLNcg_FV9n7qZ4Ym8ZriYT6WF8TaC2e_R7) · [Data careers](https://www.youtube.com/playlist?list=PLNcg_FV9n7qah95jp-aPtysu7kFCbg7hd)
 
